@@ -64,18 +64,7 @@ Recommended wiring for Arduino Uno (labels are Arduino pins unless otherwise sta
 ## Software notes
 
 - The sketch uses `Adafruit_GFX` and `Adafruit_SSD1306` for the OLED. Install these libraries via the Arduino Library Manager.
+- The use of the OLED screen is optional and be used without its presence.
 - Update the phone number in the `sendSMS()` function before deploying.
 
-## How to generate the presentation
 
-A Python script (`create_ppt.py`) is provided to generate a monochrome-themed PowerPoint that includes the architecture diagram and summary slides. Run:
-
-```powershell
-python create_ppt.py
-```
-
-This will create `AquaTracker.pptx` in this folder.
-
-## Contact
-
-For improvements, documentation updates, or demo assets, open an issue or PR on the GitHub repo.
