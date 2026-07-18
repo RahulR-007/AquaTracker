@@ -8,6 +8,7 @@ AquaTracker is an Arduino-based water-monitoring prototype that measures pH, tur
 
 - `AquaTracker.ino` — Arduino sketch (main project code)
 - `AquaTracker_architecture.png` — Architecture & wiring diagram
+- `docs/prototype/Prototype.png` — Photo of the actual prototype build
 - `AquaTracker.pptx` — Presentation (generated)
 - `README.md` — This file
 
@@ -60,6 +61,12 @@ Recommended wiring for Arduino Uno (labels are Arduino pins unless otherwise sta
 6. Connect GSM antenna and verify SIM card has SMS capability and active balance.
 7. Power up and open Arduino Serial Monitor at 9600 baud to observe initialization logs and GSM handshake.
 8. Calibrate sensors (pH calibration solutions, turbidity baselines) and verify readings match known samples.
+
+## Prototype and 3D model
+
+- Actual prototype image: [docs/prototype/Prototype.png](docs/prototype/Prototype.png)
+- Fusion 3D model view: [Autodesk 360 share](https://gmail3188638.autodesk360.com/g/shares/SHd38bfQT1fb47330c991faf8d40cf933bd1)
+- Use the prototype image and the 3D model together to explain the build, layout, and finished hardware form factor.
 
 ## Software notes
 
